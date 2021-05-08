@@ -1,0 +1,133 @@
+:root {
+  --logo-font: 'Raleway', sans-serif;
+  --primary-font: 'Roboto', sans-serif;
+  --brand-color: #2196f3;
+  --text-color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* ========= COMPONENTS =========*/
+.logo-link {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-link-first-word {
+  color: var(--brand-color);
+}
+
+.title {
+  color: #212121;
+  font-size: inherit;
+  line-height: 1.14;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* ========= END COMPONENTS =========*/
+
+/* ========= HEADER =========*/
+.header-link {
+  font-weight: 500;
+  /* font-size: 14px;
+  line-height: 1.14; */
+  letter-spacing: 0.02em;
+}
+
+/* .nav-menu-link {
+  color: #212121;
+} */
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--brand-color);
+}
+
+.mail-link,
+.tel-link {
+  color: var(--text-color);
+}
+/* ========= END HEADER =========*/
+
+/* ========= HERO =========*/
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--brand-color);
+  cursor: pointer;
+  text-align: center;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* ========= END HERO =========*/
+
+/* ========= FEATURES =========*/
+.features-list-item-title {
+  font-weight: 700;
+  /* font-size: 14px;
+  line-height: 1.14; */
+  text-transform: uppercase;
+}
+/* ========= END FEATURES =========*/
+
+/* ========= WHAT WE DO  =========*/
+/* ========= END WHAT WE DO  =========*/
+
+/* ========= OUR TEAM  =========*/
+.team-list {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: inherit;
+}
+
+/* ========= END OUR TEAM  =========*/
