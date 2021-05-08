@@ -3,6 +3,7 @@
   --primary-font: 'Roboto', sans-serif;
   --brand-color: #2196f3;
   --text-color: #757575;
+  --hero-background: #2f303a;
 }
 
 .list {
@@ -68,7 +69,7 @@ body {
 
 /* ========= HERO =========*/
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-background);
 }
 
 .hero-title {
@@ -95,7 +96,7 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background: #188ce8;
+  background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -129,9 +130,9 @@ body {
 
 /* ========= FOOTER =========*/
 .footer {
-  background-color: #2f303a;
+  background-color: var(--hero-background);
 }
-address {
+.address {
   font-style: normal;
 }
 .logo-link-second-word,
@@ -141,4 +142,10 @@ address {
 .footer-mail,
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: var(--brand-color);
+}
 /* ========= END FOOTER =========*/
