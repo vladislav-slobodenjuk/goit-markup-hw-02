@@ -9,6 +9,7 @@
   --title-color: #212121;
   --hero-background: #2f303a;
   --secondary-background: #f5f4fa;
+  --address-secondary-color: rgba(255, 255, 255, 0.6);
 }
 
 .list {
@@ -135,9 +136,10 @@ body {
   line-height: 1.19;
 }
 
-.team-member {
+.team .team-member {
   font-weight: 500;
   font-size: inherit;
+  line-height: inherit;
 }
 /* ========= END OUR TEAM  =========*/
 
@@ -153,7 +155,7 @@ body {
 }
 .footer-mail,
 .footer-tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-secondary-color);
 }
 
 .contact-list-link:hover,
@@ -168,7 +170,7 @@ body {
   line-height: 1.88;
 }
 
-.project-title {
+.project-list .project-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
