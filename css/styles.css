@@ -2,8 +2,13 @@
   --logo-font: 'Raleway', sans-serif;
   --primary-font: 'Roboto', sans-serif;
   --brand-color: #2196f3;
+  --logo-secondary-color: #000000;
   --text-color: #757575;
+  --text-secondary-color: #ffffff;
+  --mdl-btn-hover-bckgrnd: #188ce8;
+  --title-color: #212121;
   --hero-background: #2f303a;
+  --secondary-background: #f5f4fa;
 }
 
 .list {
@@ -29,15 +34,19 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
-}
-
-.logo-link-first-word {
   color: var(--brand-color);
 }
 
+.logo-link-part-header {
+  color: var(--logo-secondary-color);
+}
+
+.logo-link-part-footer {
+  color: var(--text-secondary-color);
+}
+
 .title {
-  color: #212121;
+  color: var(--title-color);
   font-size: inherit;
   line-height: 1.14;
 }
@@ -60,6 +69,10 @@ body {
   color: var(--brand-color);
 }
 
+.header-link.current {
+  color: var(--brand-color);
+}
+
 .mail-link,
 .tel-link {
   color: var(--text-color);
@@ -78,7 +91,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--text-secondary-color);
 }
 
 .modal-btn {
@@ -88,7 +101,7 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--text-secondary-color);
   background-color: var(--brand-color);
   cursor: pointer;
   text-align: center;
@@ -98,7 +111,7 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--mdl-btn-hover-bckgrnd);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* ========= END HERO =========*/
@@ -114,7 +127,7 @@ body {
 
 /* ========= OUR TEAM =========*/
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background);
 }
 
 .team-list {
@@ -135,9 +148,8 @@ body {
 .address {
   font-style: normal;
 }
-.logo-link-second-word,
 .contact-list-link {
-  color: #ffffff;
+  color: var(--text-secondary-color);
 }
 .footer-mail,
 .footer-tel {
@@ -169,15 +181,15 @@ body {
   line-height: 1.6;
   letter-spacing: inherit;
   text-align: center;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--title-color);
+  background-color: var(--secondary-background);
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .filter-button:active {
-  color: #ffffff;
+  color: var(--text-secondary-color);
   background-color: var(--brand-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
